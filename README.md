@@ -19,11 +19,11 @@ Connections:
 (See img2_connections)
 
 How Balancing Works:
-It will be prevented from falling by giving acceleration  to the wheels according to its inclination from the  vertical. If the bot gets tilts by an angle, than in the  frame of the wheels, the centre of mass of the bot will experience a pseudo force which will apply a torque  opposite to the direction of tilt.(See img3_how balancing works).
+It will be prevented from falling by giving acceleration  to the wheels according to its inclination from the  vertical. If the bot gets tilts by an angle, than in the  frame of the wheels, the centre of mass of the bot will experience a pseudo force which will apply a torque  opposite to the direction of tilt (See img3_how balancing works).
 
 Algorithms:
 (1) PID 
-    The control algorithm behind maintaining it balanced on the autonomous self-balancing two wheel robot was the PID controller.The         proportional, integral, and derivative (PID) controller, is well known as a three term controller.(See img4_PIDcontroller)
+    The control algorithm behind maintaining it balanced on the autonomous self-balancing two wheel robot was the PID controller.The         proportional, integral, and derivative (PID) controller, is well known as a three term controller(See img4_PIDcontroller).
     The input to the controller is the error from the system. The Kp, Ki, and Kd are referred as the proportional, integral, and             derivative constants (the three terms get multiplied by these constants respectively).
     Note: Vertical upright position is taken as reference position.
     Kp : This the term responsible for reducing the error from the upright position
