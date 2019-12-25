@@ -10,10 +10,10 @@ Two wheels,
 Wires, 
 DC Power supply(12 volt) and other material if requires.
 
-Mechanical Structure:
+Mechanical Structure(See img1_Mechanical model):
 The bot consists of 2 platforms which have  arduino, IMU, motor driver mounted on it. 
 On the  lower part of the base platform, the two Johnson type motors (200 rpm) are clamped. 
-The whole bot gets  balanced on two wheels having the required grip  providing sufficient friction (as there are large chances  for wheels to skid).(See img1_Mechanical model) 
+The whole bot gets  balanced on two wheels having the required grip  providing sufficient friction (as there are large chances  for wheels to skid). 
 
 Connections:
 (See img2_connections)
@@ -23,7 +23,7 @@ It will be prevented from falling by giving acceleration  to the wheels accordin
 
 Algorithms:
 (1) PID 
-    The control algorithm behind maintaining it balanced on the autonomous self-balancing two wheel robot was the PID controller.The         proportional, integral, and derivative (PID) controller, is well known as a three term controller(See img4_PIDcontroller.
+    The control algorithm behind maintaining it balanced on the autonomous self-balancing two wheel robot was the PID controller.The         proportional, integral, and derivative (PID) controller, is well known as a three term controller(See img4_PIDcontroller).
     The input to the controller is the error from the system. The Kp, Ki, and Kd are referred as the proportional, integral, and             derivative constants (the three terms get multiplied by these constants respectively).
     Note: Vertical upright position is taken as reference position(See img5_PIDtunnig).
     Kp : This the term responsible for reducing the error from the upright position
