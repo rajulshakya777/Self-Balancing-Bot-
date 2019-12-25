@@ -2,12 +2,13 @@
 It is the two wheeled robot which moves forward with balancing itself vertically straight position.
 
 Components required: 
-1.Self balancing robot chassis
-2.Arduino Mega2560,Gyro sensor
-3.Two Johnson motors,Motor driver
-4.Two wheels
-5.Wires 
-6.DC Power supply(12 volt) and other material if requires.
+Self balancing robot chassis,
+Arduino Mega2560,Gyro sensor,
+Two Johnson motors,
+Motor driver,
+Two wheels,
+Wires, 
+DC Power supply(12 volt) and other material if requires.
 
 Mechanical Structure:
 The bot consists of 2 platforms which have  arduino, IMU, motor driver mounted on it. 
@@ -37,8 +38,8 @@ Algorithms:
     less memory consumption of microprocessor also gives theoretically and practically accurate data.
     
 Applications:
-1.Segway vehicle(see img7_segway vehicle)
-2.short distance vehicles as per requirements
+Segway vehicle(see img7_segway vehicle),
+short distance vehicles as per requirements
 
 
 
